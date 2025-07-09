@@ -12,7 +12,6 @@ const markdownToHTML = (text) => {
     return converter.makeHtml(text)
 }
 
-//AIzaSyAZfi78xAstwDjOLuUXmEvkYyg4fdZ12-0//
 const perguntarAI = async (apiKey, game, question) => {
 
     const model = 'gemini-2.5-flash';
